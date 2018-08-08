@@ -6,22 +6,23 @@ h1 {
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #aaaaaa;
-
 }
 
 #h1style {
     background-color: #e5e5e5;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
     width: 100%;
 }
-#footer{
-    background-color: #e5e5e5;
+
+#footer {
+    background-color: firebrick;
     text-align: center;
     padding: 10px;
     margin-top: 7px;
 }
-#overflowarea{
+
+#overflowarea {
     overflow: auto;
 }
 
@@ -29,44 +30,26 @@ body {
     box-sizing: border-box;
 }
 
-.menu {
-    float: left;
-    width: 20%;
+#menu {
     text-align: center;
+    background-color: #918989;
+    display: block;
 }
 
-.menu a {
-    background-color: #e5e5e5;
-    padding: 8px;
-    margin-top: 7px;
-    display: block;
-    width: 100%;
+#menu a {
+    background-color: #bbb3b3;
+    text-align: center;
     color: black;
 }
 
-.main {
-    float: left;
-    width: 60%;
-    padding: 0 20px;
-}
 
-.right {
-    background-color: #e5e5e5;
-    float: left;
-    width: 20%;
-    padding: 15px;
-    margin-top: 7px;
+
+#main h2 {
     text-align: center;
 }
 
-/* Use a media query to add a breakpoint at 800px: */
+#right {
+    background-color: #918989;
+    text-align: center;
 
-@media only screen and (max-width:620px) {
-    /*For Mobile Phones*/
-    .menu,
-    .main,
-    .right {
-        width: 100%;
-        /* The width is 100%, when the viewport is 800px or smaller */
-    }
 }
